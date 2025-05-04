@@ -37,6 +37,12 @@ header {
     grid-column: 1/4;
     
 }
+.main-section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column: 1/4;
+    
+}
 
 .main-content {
     background-color: aqua;
