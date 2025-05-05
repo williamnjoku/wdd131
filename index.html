@@ -3,12 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals | William Njoku | Projects, HTML, CSS, JavaScript.">
+    <meta name="author" content="William Njoku">
+    <title>WDD 131 - Dynamic Web Fundamentals - William Njoku</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1> WDD 131 - William</h1>
-    <h2>WDD</h2>
-    <h3>WDD</h3>
-    <p>This is a new site</p>
+    <header class="container">
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>William C. Njoku</span></h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="http://linkedin.com/in/william-njoku-362aa32ba" title="LinkedIn">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/" title="Canvas">Canvas</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/nt/james/1?lang=eng" title="Scripture">Scripture</a></li>
+                <li><a href="" title="Final Project">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-section">
+        <section class="card1">
+            <div class="aboutme"><h2>About Me</h2></div>
+            <div class="myself">
+                <p>I'm William Njoku from Imo State, Nigeria. I'm passionate about software development and love expressing creativity through coding. When I'm not learning new web technologies, you'll probably find me enjoying a good game of basketball. I'm excited to keep growing my skills and building meaningful projects.</p>
+                <img src="images/profile.jpg" alt="My picture">
+            </div>
+            <div class="ntitle"><h2>Nigeria</h2></div>
+            <div class="nigeria">
+                <div class="flag-block">
+                <img src="images/nigeria.jpg" alt="Nigerian Flag">
+                <h3>Official Flag of Nigeria</h3>
+                </div>
+                <p>Nigeria is a vibrant and diverse country located in West Africa, known for its rich cultural heritage, languages, and traditions. It is the most populous country in Africa and home to over 200 million people. From bustling cities like Lagos and Abuja to scenic landscapes and natural resources, Nigeria is full of energy, resilience, and creativity. Despite facing some challenges, the country's spirit of innovation and community continues to shine through its people.</p>
+            </div>
+            
+        </section>
+        <section class="card2">
+            <div class="webdev"><h2>Web Dev Resources</h2></div>
+            <ul class="webdev-tools">
+                <li><a href="#" title="CSS">CSS</a></li>
+                <li><a href="#" title="Udemy">Udemy</a></li>
+                <li><a href="#" title="W3C">W3C Schools</a></li>
+                <li><a href="#" title="MDN">MDN</a></li>
+                <li><a href="#" title="Git">Github</a></li>
+                <li><a href="#" title="Ms Teams">Ms Teams</a></li>
+
+            </ul>
+        </section>
+
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> William Njoku | Imo State, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+    
 </body>
 </html>
