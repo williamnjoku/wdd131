@@ -65,6 +65,7 @@ header {
 }
 .main-section {
     column-gap: 10px;
+    max-width: 100%;
 }
 footer {
     background-color: var(--primary-color);
@@ -72,6 +73,7 @@ footer {
     text-align: center;
     grid-column: 1/4;
     color: #ffffff;
+
 }
 .aboutme {
     background-color: var(--primary-color);
