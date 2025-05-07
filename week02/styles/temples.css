@@ -55,14 +55,14 @@ h1 {
     display: flex;
 }
 
-.nav-links a {
+nav a {
     color: white;
     text-decoration: none;
     padding: 0.5rem;
     display: block;
 }
 
-.nav-links a:hover {
+nav a:hover {
     color: yellowgreen;
     font-weight: 700;
 }
