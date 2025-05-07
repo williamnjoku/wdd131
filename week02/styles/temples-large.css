@@ -1,0 +1,26 @@
+
+@media (min-width: 600px) {
+    header {
+        display: flex;
+        align-items: center;
+        padding: 1rem 2rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #menu {
+        display: none;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+        gap: 1.5rem;
+    }
+
+    .figures {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
