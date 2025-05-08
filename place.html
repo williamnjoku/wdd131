@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Country Page - William Njoku</title>
+    <meta name="description" content="Explore the beauty and heritage of Kaduna, Nigeria — a city rich in culture, history, and vibrant traditions. Discover its landmarks, people, and unique experiences.">
+    <meta name="author" content="William Njoku">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Kaduna</h1>
+    </header>
+    <main>
+        <section class="hero">
+            <picture>
+              <source srcset="images/croc.webp" media="(max-width: 600px)">
+              <source srcset="images/crocodiles-large.webp" media="(min-width: 800px)">
+              <img src="images/croc-large.webp" alt="Kaduna Crocodiles">
+            </picture>
+            <div class="hero-content">
+                <div class="data">
+                    <h2>Data</h2>
+                    <ul>
+                        <li><span class="label">Area:</span> <span class="value">46,053 sq km</span></li>
+                        <li><span class="label">Population:</span> <span class="value">9,032,200</span></li>
+                        <li><span class="label">Capital:</span> <span class="value">Kaduna</span></li>
+                        <li><span class="label">Languages:</span> <span class="value">English, Hausa</span></li>
+                        <li><span class="label">Currency:</span> <span class="value">Naira</span></li>
+                        <li><span class="label">Time Zone:</span> <span class="value">UTC+01 (WAT)</span></li>
+                        <li><span class="label">Calling Code:</span> <span class="value">+234</span></li>
+                        <li><span class="label">Internet TLD:</span> <span class="value">.ng</span></li>
+                        <li><span class="label">Postal Code:</span> <span class="value">8000014</span></li>
+                      </ul>                      
+                </div>
+                <div class="weather">
+                    <h2>Weather <span class="weather-emoji">⛅</span></h2>
+                    <img src="images/weather.svg" alt="Partly Cloudy Icon" class="weather-icon-mobile">
+                    <ul>
+                        <li><span class="label">Temperature:</span><span class="value" id="temperature"></span></li>
+                        <li><span class="label">Conditions:</span><span class="value">Partly Cloudy</span></li>
+                        <li><span class="label">Wind:</span><span class="value" id="wind"></span></li>
+                        <li><span class="label">Wind Chill:</span><span class="value" id="windchill"></span></li>
+                    </ul>                      
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© <span id="currentyear"></span> 🏀 William Njoku 🏀 Imo State, Nigeria 🏀 </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

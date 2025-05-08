@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: rgb(44, 68, 174);
+    --secondary-color: rgb(239, 190, 98);
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: var(--secondary-color);
+    width: 100vw;
+    
+}
+.hero {
+    position: relative;
+}
+.hero img {
+    width: 100%;
+    display: block;
+}
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    opacity: 1;
+    position: relative;
+}
+.data, .weather {
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+}
+.data {
+    border-bottom: dotted;
+}
+header {
+    background-color: var(--main-color);
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 1rem; 
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 2rem;
+    color: white;
+}
+.data h2, .weather h2 {
+    text-align: center;
+    padding: 0.5rem;
+}
+.data li,
+.weather li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.label {
+    text-align: right;
+    font-weight: bold;
+    white-space: nowrap;
+}
+  
+.value {
+    text-align: left;
+}
+#lastModified {
+    color: yellow;
+}
+.weather-icon-mobile {
+    max-width: 60px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+  
+.weather-emoji {
+    display: none;
+}
