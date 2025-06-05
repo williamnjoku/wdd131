@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HoopHub - Basketball Knowledge Hub</title>
+    <meta name="description" content="Learn about the history, rules, and culture of basketball. This site offers educational insights into the game's origins, evolution, and impact around the world.">
+    <meta name="author" content="William Njoku">
+    <link rel="stylesheet" href="hoophub-mobile.css">
+    <link rel="stylesheet" href="hoophub-desktop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="hoophub.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>HoopHub</h1>
+        <nav>
+            <ul>
+                <li><a href="hoophub-index.html">Home</a></li>
+                <li><a href="rules.html">Rules</a></li>
+                <li><a href="culture.html">Culture</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-section">
+        <div class="hero-box">
+        <section class="hero">
+            <h2>Welcome to HoopHub</h2>
+            <p>HoopHub is your go-to resource for all things basketball – from learning the fundamentals to exploring its cultural impact worldwide.</p>
+        </section>
+        <section class="info-grid">
+        <div class="info-box">
+            <div class="icon">⏪</div>
+            <h3>History</h3>
+            <p>Discover the origins and evolution of basketball</p>
+        </div>
+        <div class="info-box">
+            <div class="icon">📘</div>
+            <h3>Rules</h3>
+            <p>Learn official regulations and gameplay mechanics</p>
+        </div>
+        <div class="info-box">
+            <div class="icon">🌍</div>
+            <h3>Culture</h3>
+            <p>Explore basketball's impact worldwide</p>
+        </div>
+        </section>
+        </div>
+        <section class="fun-fact">
+            <h2>Fun Fact</h2>
+            <p id="funFact"></p>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div class="footer-left">
+            <h4>Newsletter</h4>
+            <input id="email" type="email" placeholder="Enter your email">
+            <button>Sign Up</button>
+        </div>
+        <div class="footer-middle">
+            <h4>Follow Us</h4>
+            <nav class="sociallinks">
+                <a href="https://facebook.com" title="Facebook"><img src="facebook.jpeg" alt="Facebook" loading="lazy"></a>
+                <a href="https://twitter.com" title="X"><img src="x.jpeg" alt="Twitter" loading="lazy"></a> 
+                <a href="https://instagram.com" title="Instagram"><img src="insta.jpeg" alt="Instagram" loading="lazy"></a>
+            </nav>
+        </div>
+        <div class="footer-right">
+            <h3>HoopHub</h3>
+            <p><strong>Your go-to resource for basketball knowledge</strong></p>
+            <p>© <span id="currentyear"></span> HoopHub | William Njoku | Imo State, Nigeria</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+</body>
+</html>

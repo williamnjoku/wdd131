@@ -1,0 +1,93 @@
+@media screen and (min-width: 600px) {
+  body {
+    padding: 0;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 3rem;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding:  2rem;
+    
+  }
+  
+  .hero-box {
+    padding: 0rem;
+    border-radius: 6px;
+    background-image: url("basketball5.jpeg");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+    padding: 4rem 2rem;          
+    text-align: center; 
+    color: white;  
+    font-size: larger;
+  }
+
+  .fun-fact {
+    padding: 0;
+    background-color: white;
+    }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 3rem;
+    text-align: left;
+  }
+
+  .footer-left, .footer-middle, .footer-right {
+    flex: 1;
+  }
+
+  .footer-left input[type="email"] {
+    padding: 0.5rem;
+    width: 60%;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #ccc;
+  }
+
+  .footer-left button {
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+
+  nav a:hover {
+    background-color: #d84315;
+  }
+
+  .info-grid {
+        flex-direction: row;
+        justify-content: space-around;
+        color: black;
+    }
+
+    .info-box {
+        width: 30%;
+    }
+    
+    .hero {
+        background-size: cover;       
+        background-position: center;  
+        background-repeat: no-repeat; 
+        padding: 4rem 2rem;          
+        text-align: center;   
+  }
+}
